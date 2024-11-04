@@ -53,14 +53,17 @@ void pwm_display_digit(int number_to_display) {
 
 void display_str_start() {
   // 此 function 應呼叫 pwm_display_digit
+  // 七段顯示器應依序顯示's'、't'、'a'、'r'、't'，不分大小寫
 }
 
 void display_str_open() {
   // 此 function 應呼叫 pwm_display_digit
+  // 七段顯示器應依序顯示'o'、'p'、'e'、'n'，不分大小寫
 }
 
 void display_str_close() {
   // 此 function 應呼叫 pwm_display_digit
+  // 七段顯示器應依序顯示'c'、'l'、'o'、's'、'e'，不分大小寫
 }
 
 int main(void) {
